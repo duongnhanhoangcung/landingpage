@@ -128,10 +128,10 @@
             var reg = [];
             var any = {
                 blackberry: 'BlackBerry',
-                android: 'Android',
+                android: 'Android'/*,
                 windows: 'IEMobile',
                 opera: 'Opera Mini',
-                ios: 'iPhone|iPad|iPod'
+                ios: 'iPhone|iPad|iPod/*'
             };
             type = 'undefined' == $.type(type) ? '*' : type.toLowerCase();
             if ('*' == type) reg = $.map(any, function(v) {
