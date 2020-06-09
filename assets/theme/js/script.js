@@ -563,7 +563,7 @@
 
             $(document).ready(function() {
                 // disable animation on scroll on mobiles
-                if ($.isMobile()) {
+                if (1==2) {
                     return;
                     // enable animation on scroll
                 } else if ($('input[name=animation]').length) {
